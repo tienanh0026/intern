@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    }
+
+.main{
+    width: 1918px;
+    height: 935px;
+}
+
+.header{
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    background: #191718;
+}
+
+.header-content-list{
+    color: #AAAAAA;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: default
+}
+
+#home{
+    color: white
+}
+
+.header-content{
+    height: 44px;
+    border: 1px #5C5C5C;
+    padding: 14px 71px 11px 16px;
+    border-bottom: solid 1px #5C5C5C;
+    
+}
+
+.header-content-list :hover{
+    background-color: #5C5C5C;
+    color: white;
+}
+
+.content{
+    justify-content: center;
+    height: 935px;
+    width: 100%;
+    padding-left: 150px;
+
+}
+
+.content img{
+    padding-top: 20px;
+    width: 310px;
+    height: 122px;
+}
+
+.content-header{
+    text-align: center;
+}
+
+.content-description{
+    text-align: center;
+    width: 1510px;
+    margin-left: 129px;
+    margin-right: 129px;
+    margin-top: 30px;
+    background-color: #EFEFEF;
+}
+
+.content-description-header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 38px;
+    padding-bottom: 18px;
+}
+
+.content-description p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding: 0px 269px 38px 269px;
+
+}
+
+.content-body{
+    height: 474px;
+    float: bottom;
+}
+
+.content-body-list{
+    position: absolute;
+    width: 470px;
+    height: 252px;
+    margin-top: 40px;
+}
+
+.content-body-list img{
+    float: left;
+    width: 128px;
+    height: 128px;
+    padding-top: 0;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+.content-body-content{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.content-body-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 18px;
+}
+
+#content-body-1{
+    margin-left: 129px;
+}
+
+#content-body-1{
+    margin-left: 129px;
+}
+
+#content-body-2{
+    margin-left: 649px;
+}
+
+#content-body-3{
+    margin-left: 1169px;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    height: 78px;
+    border-top: solid 1px #DEDEDE;
+}
+
+.footer-content{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 30px 0px 30px 129px;
+}
